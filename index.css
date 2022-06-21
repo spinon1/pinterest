@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    background-color: aqua;
+    height: 10vh;
+    width: 100%;
+    justify-content: left;
+
+}
+header nav {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    overflow-y: scroll;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px 10px;
+    grid-template-areas: 
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."
+    ". . . ."; */
+
+}
+
+section article{
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    height: 400px;
+}
+
+article img{
+
+    width: 400px;
+    height: 400px;
+
+}
